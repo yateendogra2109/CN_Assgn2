@@ -56,7 +56,7 @@ cn2/
 │   ├── Network.ned         # Top-level network NED
 │   ├── Messages.msg        # Message type definitions
 │   └── package.ned         # Package namespace
-├── topo.txt                # ← EDIT THIS to change N
+├── topo.txt                --->>> move this file inside simulation folder
 ├── config.csv              # Simulation configuration
 ├── omnetpp.ini             # OMNeT++ run configuration
 ├── Makefile                # Build script
