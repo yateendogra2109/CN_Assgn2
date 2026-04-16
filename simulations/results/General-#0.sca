@@ -1,0 +1,40 @@
+version 3
+run General-0-20260417-02:35:08-25412
+attr configname General
+attr datetime 20260417-02:35:08
+attr datetimef 20260417-023508
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network cn2.ChordNetwork
+attr processid 25412
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network cn2.ChordNetwork
+
+par ChordNetwork.manager typename "\"cn2.NetworkManager\""
+par ChordNetwork.client[0] typename "\"cn2.Client\""
+par ChordNetwork.client[0] clientID 0
+par ChordNetwork.client[1] typename "\"cn2.Client\""
+par ChordNetwork.client[1] clientID 1
+par ChordNetwork.client[2] typename "\"cn2.Client\""
+par ChordNetwork.client[2] clientID 2
+par ChordNetwork.client[3] typename "\"cn2.Client\""
+par ChordNetwork.client[3] clientID 3
+par ChordNetwork.client[4] typename "\"cn2.Client\""
+par ChordNetwork.client[4] clientID 4
+par ChordNetwork.client[5] typename "\"cn2.Client\""
+par ChordNetwork.client[5] clientID 5
+par ChordNetwork.client[6] typename "\"cn2.Client\""
+par ChordNetwork.client[6] clientID 6
+par ChordNetwork.client[7] typename "\"cn2.Client\""
+par ChordNetwork.client[7] clientID 7
+par ChordNetwork typename "\"cn2.ChordNetwork\""
+par ChordNetwork numClients 8
+

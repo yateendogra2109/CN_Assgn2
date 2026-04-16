@@ -1,0 +1,8 @@
+parameter,value,description
+numClients,8,Number of client nodes in the network (read from topo.txt)
+arraySize,32,Total elements in the input array
+initiatorID,0,Client ID that initiates the task
+channelDelay,1ms,Propagation delay on links
+channelDataRate,100Mbps,Link data rate
+simTimeLimit,100s,Maximum simulation time
+randomSeed,42,Seed for array generation
